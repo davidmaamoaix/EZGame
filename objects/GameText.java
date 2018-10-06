@@ -15,14 +15,12 @@ public class GameText extends SceneObject{
 		text=new Text();
 	}
 	
-	@Override
-	public void addToScene(GameScene inScene) {
+	public void addToScene(GameScene inScene){
 		scene=inScene;
 		scene.add(this);
 	}
 	
-	@Override
-	public void destroy() {
+	public void destroy(){
 		scene.remove(this);
 		scene=null;
 	}

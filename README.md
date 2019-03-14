@@ -1,2 +1,2 @@
 # EZGame
-A 2D game engine in Java based on JavaFX
+A library for making 2D game in Java based on JavaFX
